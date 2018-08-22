@@ -29,8 +29,8 @@ mod 'ntp',
 
 mod 'role',
   :git  => 'https://github.com/adonyec1/nk-role.git',
-  :ref  => 'master'
+  :ref  => 'development'
 
 mod 'profile',
   :git  => 'https://github.com/adonyec1/nk-profile.git',
-  :ref  => 'master'
+  :ref  => 'development'
