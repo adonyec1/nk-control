@@ -7,14 +7,14 @@ profile::base::ntp_servers:
 
 profile::apache::default_vhost: false
 
-#profile::apache::apache_vhost_servers: {
-# 'adonyec2.mylabserver.com': {
-#    port: 80,
-#    docroot: '/var/www/adonyec2'
-#  },
-# 'adonyec2b.mylabserver.com': {
-#    port: 80,
-#    docroot: '/var/www/adonyec2b'
-#  }
-#}
+profile::apache::apache_vhost_servers: {
+ 'adonyec2.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/adonyec2'
+  },
+ 'adonyec2b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/adonyec2b'
+  }
+}
 
