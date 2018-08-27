@@ -1,4 +1,12 @@
 ---
+profile::nginx::vhosts:
+  - 'fqdn': 'adonyec2.mylabserver.com'
+    'port': 80
+    'server_aliases': ''
+  - 'fqdn': 'adonyec2b.mylabserver.com'
+     'port': 80
+     'server_aliases': 'adonyec2b1.mylabserver.com'
+
 profile::base::ntp_servers:
  - 0.ubuntu.pool.ntp.org
  - 1.ubuntu.pool.ntp.org
