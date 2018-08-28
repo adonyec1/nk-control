@@ -1,5 +1,5 @@
 ---
-profile::nginx::vhosts:
+profile::nginx::vhost:
   - 'fqdn': 'adonyec2.mylabserver.com'
     'port': 80
     'server_aliases': ''
