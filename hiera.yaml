@@ -8,6 +8,6 @@ hierarchy:
   - name: 'Yaml backend'
     data_hash: yaml_data
     paths:
-     - "nodes/%{::fqdn}.yaml"
-#      - "nodes/%{trusted.certname}.yaml"
+#     - "nodes/%{trusted.certname}.yaml"
+      - "nodes/%{facts.fqdn}.yaml"
       - 'common.yaml'
